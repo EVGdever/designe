@@ -1,0 +1,99 @@
+@import "vars";
+
+#steps {
+  padding: 40px 30px;
+  overflow: hidden;
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 33px;
+    text-align: center;
+
+    h2 {
+      display: inline;
+      font-size: 24px;
+      margin: 0 20px;
+    }
+
+    .line {
+      border-top: 1px solid $black;
+      width: 48px;
+    }
+  }
+
+  .step-1 {
+    background: url("../images/step-1.png") no-repeat;
+  }
+
+  .step-2 {
+    background: url("../images/step-2.jpg") no-repeat;
+  }
+
+  .step-3 {
+    background: url("../images/step-3.png") no-repeat;
+  }
+
+  .step-4 {
+    background: url("../images/step-4.png") no-repeat;
+  }
+
+  .step-5 {
+    background: url("../images/step-5.png") no-repeat;
+  }
+
+
+  .slider {
+    display: flex;
+    height: 200px;
+    overflow: hidden;
+    width: fit-content;
+    align-items: center;
+    gap: 8px;
+    transition: .5s ease-out;
+
+    .step {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      transition: .5s ease-out;
+      height: 170px;
+      width: 30px;
+      overflow: hidden;
+      background-size: cover;
+      padding-bottom: 18px;
+      padding-left: 3px;
+
+
+      .info {
+        color: $white;
+        display: flex;
+        overflow: hidden;
+        width: max-content;
+        align-items: center;
+        font-size: 11px;
+        gap: 8px;
+      }
+
+      .icon {
+        background-color: $white;
+        border-radius: 50%;
+        width: 24px;
+        height: 24px;
+      }
+    }
+
+    .step.active {
+      min-height: 170px;
+      height: 100%;
+      width: 288px;
+      padding-bottom: 15px;
+      padding-left: 20px;
+
+      .text {
+        display: block;
+      }
+    }
+  }
+}

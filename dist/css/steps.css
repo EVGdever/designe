@@ -1,0 +1,81 @@
+#steps {
+  padding: 40px 30px;
+  overflow: hidden;
+}
+#steps .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 33px;
+  text-align: center;
+}
+#steps .header h2 {
+  display: inline;
+  font-size: 24px;
+  margin: 0 20px;
+}
+#steps .header .line {
+  border-top: 1px solid #282826;
+  width: 48px;
+}
+#steps .step-1 {
+  background: url("../images/step-1.png") no-repeat;
+}
+#steps .step-2 {
+  background: url("../images/step-2.jpg") no-repeat;
+}
+#steps .step-3 {
+  background: url("../images/step-3.png") no-repeat;
+}
+#steps .step-4 {
+  background: url("../images/step-4.png") no-repeat;
+}
+#steps .step-5 {
+  background: url("../images/step-5.png") no-repeat;
+}
+#steps .slider {
+  display: flex;
+  height: 200px;
+  overflow: hidden;
+  width: fit-content;
+  align-items: center;
+  gap: 8px;
+  transition: 0.5s ease-out;
+}
+#steps .slider .step {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  transition: 0.5s ease-out;
+  height: 170px;
+  width: 30px;
+  overflow: hidden;
+  background-size: cover;
+  padding-bottom: 18px;
+  padding-left: 3px;
+}
+#steps .slider .step .info {
+  color: #F4F0ED;
+  display: flex;
+  overflow: hidden;
+  width: max-content;
+  align-items: center;
+  font-size: 11px;
+  gap: 8px;
+}
+#steps .slider .step .icon {
+  background-color: #F4F0ED;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+}
+#steps .slider .step.active {
+  min-height: 170px;
+  height: 100%;
+  width: 288px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+}
+#steps .slider .step.active .text {
+  display: block;
+}

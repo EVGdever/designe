@@ -1,0 +1,23 @@
+{
+  "name": "kolmakovadisigner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "start": "gulp"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browser-sync": "^2.29.3",
+    "gulp": "^4.0.2",
+    "gulp-include": "^2.4.1",
+    "gulp-scss": "^1.4.0",
+    "scss": "^0.2.4"
+  },
+  "devDependencies": {
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.69.5"
+  }
+}
