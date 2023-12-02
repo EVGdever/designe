@@ -40,20 +40,24 @@
   .accordion-header {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 14px;
-    font-size: 13px;
+    font-size: 14px;
     white-space: nowrap;
     cursor: pointer;
     padding-top: 14px;
     padding-bottom: 14px;
     padding-right: 15px;
+    user-select: none;
   }
 
   .accordion-body {
     font-size: 9px;
 
+    img {
+      width: 100%;
+    }
+
     ul {
-      padding-left: 15px;
+      padding: 15px 0 10px 10px;
     }
   }
 }
