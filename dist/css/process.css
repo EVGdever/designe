@@ -1,3 +1,47 @@
 #process {
+  padding: 40px 30px;
+  margin-bottom: 500px;
+}
+#process .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
   text-align: center;
+}
+#process .header h2 {
+  display: inline;
+  font-size: 24px;
+}
+#process .header .line {
+  border-top: 1px solid #282826;
+  width: 48px;
+}
+#process .accordion-item {
+  padding: 14px 16px 14px 0;
+  border-top: 1px solid #282826;
+  transition: 0.7s ease-in;
+  max-height: 44px;
+  overflow: hidden;
+}
+#process .accordion-item:last-child {
+  border-bottom: 1px solid #282826;
+}
+#process .accordion-item.active {
+  max-height: 900px;
+}
+#process .accordion-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 14px;
+  font-size: 13px;
+  white-space: nowrap;
+  cursor: pointer;
+}
+#process .accordion-body {
+  font-size: 9px;
+}
+#process .accordion-body ul {
+  margin-top: 15px;
+  padding-left: 15px;
 }

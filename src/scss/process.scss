@@ -1,3 +1,58 @@
+@import "vars";
+
 #process {
-  text-align: center;
+  padding: 40px 30px;
+  margin-bottom: 500px;
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+    text-align: center;
+
+    h2 {
+      display: inline;
+      font-size: 24px;
+    }
+
+    .line {
+      border-top: 1px solid $black;
+      width: 48px;
+    }
+  }
+
+  .accordion-item {
+    padding: 14px 16px 14px 0;
+    border-top: 1px solid $black;
+    transition: .7s ease-in;
+    max-height: 44px;
+    overflow: hidden;
+  }
+
+  .accordion-item:last-child {
+    border-bottom: 1px solid $black;
+  }
+
+  .accordion-item.active {
+    max-height: 900px;
+  }
+
+  .accordion-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 14px;
+    font-size: 13px;
+    white-space: nowrap;
+    cursor: pointer;
+  }
+
+  .accordion-body {
+    font-size: 9px;
+
+    ul {
+      margin-top: 15px;
+      padding-left: 15px;
+    }
+  }
 }

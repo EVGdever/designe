@@ -19,19 +19,19 @@
   width: 48px;
 }
 #steps .step-1 {
-  background: url("../images/step-1.png") no-repeat;
+  background: url("../images/steps/step-1.png") no-repeat;
 }
 #steps .step-2 {
-  background: url("../images/step-2.jpg") no-repeat;
+  background: url("../images/steps/step-2.jpg") no-repeat;
 }
 #steps .step-3 {
-  background: url("../images/step-3.png") no-repeat;
+  background: url("../images/steps/step-3.png") no-repeat;
 }
 #steps .step-4 {
-  background: url("../images/step-4.png") no-repeat;
+  background: url("../images/steps/step-4.png") no-repeat;
 }
 #steps .step-5 {
-  background: url("../images/step-5.png") no-repeat;
+  background: url("../images/steps/step-5.png") no-repeat;
 }
 #steps .slider {
   display: flex;
