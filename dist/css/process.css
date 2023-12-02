@@ -18,9 +18,8 @@
   width: 48px;
 }
 #process .accordion-item {
-  padding: 14px 16px 14px 0;
   border-top: 1px solid #282826;
-  transition: 0.7s ease-in;
+  transition: 0.3s ease-in;
   max-height: 44px;
   overflow: hidden;
 }
@@ -37,11 +36,13 @@
   font-size: 13px;
   white-space: nowrap;
   cursor: pointer;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-right: 15px;
 }
 #process .accordion-body {
   font-size: 9px;
 }
 #process .accordion-body ul {
-  margin-top: 15px;
   padding-left: 15px;
 }

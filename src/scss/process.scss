@@ -23,9 +23,8 @@
   }
 
   .accordion-item {
-    padding: 14px 16px 14px 0;
     border-top: 1px solid $black;
-    transition: .7s ease-in;
+    transition: .3s ease-in;
     max-height: 44px;
     overflow: hidden;
   }
@@ -45,13 +44,15 @@
     font-size: 13px;
     white-space: nowrap;
     cursor: pointer;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-right: 15px;
   }
 
   .accordion-body {
     font-size: 9px;
 
     ul {
-      margin-top: 15px;
       padding-left: 15px;
     }
   }

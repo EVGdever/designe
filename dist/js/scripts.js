@@ -24,7 +24,7 @@ function setupAccordion() {
     const closeSvg = '<svg xmlns="http://www.w3.org/2000/svg" width="11" height="7" viewBox="0 0 11 7" fill="none">\n' +
         '<path d="M1 6L5.12835 1.41294C5.32697 1.19225 5.67303 1.19225 5.87165 1.41294L10 6" stroke="#CDCAC7" stroke-width="1.5" stroke-linecap="round"/>\n' +
         '</svg>'
-    const accordion = document.querySelectorAll('.accordion-button');
+    const accordion = document.querySelectorAll('.accordion-header');
     const accordionBodies = document.querySelectorAll('.accordion-item');
     const cancelButtons = document.querySelectorAll('.toggle-button');
 
